@@ -104,3 +104,24 @@ Dependiendo de lo que necesitemos, los vamos a tener que usar como herramientas 
     - son desordenados
 
 ## Arrays
+
+Son una estructura en la que se pueden almacenar datos en una collection. 
+Esta collection es parecida a las lists de python, y estas disponibles en casi cualquier lenguaje
+de programacion.
+
+Los arrays en la parte tecnica de la memoria, son elementos que se les define un espacio en memoria, para poder 
+almacenar un numero estatico de elementos. Este numero de elementos, a diferencia de las lists, no se puede 
+cambiar agregando o borrando elementos.
+
+En python hay un modulo para crear los arrays, pero estos igualmente estan basados en las lists.
+
+Pero tambien podemos agregar nuestro propio obj con OOP para crear Arrs.
+
+## Arrays 2D
+
+Es un array que ya hemos usado, su estructura es general, como una tabla. Generalmente creada con filas y columnas, 
+y con Arrays dentro de otro Array.
+
+Y aprovechando que hemos hecho una clase de Arrays, podemos usarla para hacer otra clase con polymorphism.
+
+
