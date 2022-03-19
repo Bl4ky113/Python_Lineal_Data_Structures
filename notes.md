@@ -148,3 +148,18 @@ La diferencia entre listas sencillas y dobles, es que las sencillas solo se pued
 Pero las dobles son de alfrente hacia atras. 
 
 Algunos de sus usos comunes son el ctrl+z y ctrl+y. El historial de navegacion en una tab.
+
+### Metodos Y Operaciones
+
+En los diferentes metodos de las Singly Linked List vamos a tener que hacer uso de
+variables sustitutas o temporales, esto para no afectar a la lista, si no es lo que necesitamos.
+
+Generalmente esta variable se va a llamar \"prove\"
+
+Algunos de los metodos son:
+
+- Iteracion
+- Busqueda, con y sin index
+- Append, con y sin index
+- Delete con y sin index
+- Replace 
