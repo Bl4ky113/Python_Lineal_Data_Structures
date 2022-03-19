@@ -124,4 +124,27 @@ y con Arrays dentro de otro Array.
 
 Y aprovechando que hemos hecho una clase de Arrays, podemos usarla para hacer otra clase con polymorphism.
 
+## Nodos y Singly linked list
 
+Los nodos son formas de almacenar datos, que tienen referencia a otro Nodo. Al hacer una cadena de nodos 
+referenciandose entre si, vamos a obtener una Singly Linked List. Estas listas pueden ser sencillas o dobles.
+Y para acceder cada dato vamos a tener que pasar con cada valor hasta llegar al indicado.
+
+Los nodos tienen la estructura:
+- Data: Valor almacenado
+- Next: Referencia al siguiente nodo, null o None si no hay siguiente nodo
+- Previous: Referencia al anterior nodo, null o None si no hay anterior nodo
+- Head: Referencia al primer nodo
+- Tail: Referencia al ultimo nodo
+
+Estos nodos se guardan en memoria en espacios aleatoreos, teniendo unicamente las referencias a los 
+otros nodos como conexion entre si. Esto puede ser muy rapido al momento de hacer optimizacion. Pero debemos
+tener en cuenta que se puede volver una coneccion O(n)
+
+Ademas las singly linked list funciona como base para hacer diferentes formas de estructuras como 
+las stacks o los queues. 
+
+La diferencia entre listas sencillas y dobles, es que las sencillas solo se pueden recorrer en un sentido. 
+Pero las dobles son de alfrente hacia atras. 
+
+Algunos de sus usos comunes son el ctrl+z y ctrl+y. El historial de navegacion en una tab.
