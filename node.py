@@ -125,6 +125,8 @@ class SinglyLinkedList ():
                     previous_node.next = new_node
 
                 new_node.next = current_node
+                self.size += 1
+                return
 
             previous_node = current_node
             current_node = current_node.next
@@ -135,6 +137,8 @@ class SinglyLinkedList ():
         elif value_index < 0:
             new_node.next = self.head.next
             self.head = new_node
+
+        self.size += 1
 
     def delete_by_index (self, index):
         if self.size <= 0 or abs(index) > (self.size - 1):

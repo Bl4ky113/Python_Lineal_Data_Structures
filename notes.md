@@ -163,3 +163,11 @@ Algunos de los metodos son:
 - Append, con y sin index
 - Delete con y sin index
 - Replace 
+
+## Circular Linked List 
+
+Estas linked list son listas de nodos que estan conectadas en un circulo. 
+Es decir al final, el ultimo nodo, no tiene como siguiente a Null o None, si no 
+que va a tener al Head o el primer nodo. Haciendo que se repita la lista de nodos.
+
+Sinceramente no le puedo ver algun uso, pero debe tener alguno.
