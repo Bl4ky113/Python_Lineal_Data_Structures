@@ -171,3 +171,37 @@ Es decir al final, el ultimo nodo, no tiene como siguiente a Null o None, si no
 que va a tener al Head o el primer nodo. Haciendo que se repita la lista de nodos.
 
 Sinceramente no le puedo ver algun uso, pero debe tener alguno.
+
+Se pueden combinar con singly o double linked lists.
+
+## Double Linked List
+
+Las Double Linked Lists son listas que se pueden acceder a los valores desde head y tail. 
+Dejando espacio para buscar o usar los datos de una forma mas sencilla al momento de hacer 
+los metodos de forma inversa, busqueda, reemplazo, agregar, eliminar, entre otros.
+
+## Stacks
+
+Son otra colletion de datos lineal, que es mas conceptual que las anteriores. Principalmente usada para colas de 
+acciones, o to Do's lists.
+
+El concepto principal de los Stacks es LIFO
+    - Last In
+    - First Out
+
+    Significa que el ultimo elemento agregado en el stack siempre va a ser el primero en salir. 
+    Como si estuvieramos comiendo una torre de hotcakes, siempre vamos a comer el primero de la torre y 
+    vamos a agregarlos siempre en el inicio de esta.
+
+Los metodos mas sencillos de los stacks es:
+- top: primer elemento
+- bottom: ultimo elemento
+- push: agregar un elemento
+- pop: eliminar un elemento
+
+Un gran uso que me ilumino es hacer operaciones aritmeticas con parentesis, tenemos en el top del stack los 
+parentesis mas internos y en el bottom los menos internos o directamente donde no hayan parentesis.
+
+Para saber si debemos elegir usar un Array o un Linked List para hacer nuestro Stack, debemos tener en cuenta si 
+tenemos ya definido un limite de que tan larga va a ser el stack, si esta tiende a ser volatil, lo mejor es usar 
+linked lists, pero si el limite es uno establecido, es mejor usar arrays
